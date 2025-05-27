@@ -5,17 +5,13 @@
   "scripts": {
     "dev": "nodemon server.js",
     "test": "jest --watchAll --verbose",
-    "build": "rm -rf server.bundle.js && esbuild server.js --bundle --platform=node --outfile=server.bundle.js --minify",
-    "start": "node server.js",
-    "postinstall": "npm install --os=linux --cpu=x64 sharp"
+    "build": "build server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "@sentry/node": "^9.9.0",
     "async-retry": "^1.3.3",
