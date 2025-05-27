@@ -1,0 +1,15 @@
+node_modules/
+.env
+dist/
+coverage/
+uploads/
+*.log
+*.tsbuildinfo
+*.tgz
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.Z
+price.js
+.vercel
