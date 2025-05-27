@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "test": "jest --watchAll --verbose",
-    "build": "webpack --config webpack.config.js",
-    "start": "node server.bundle.js"
+    "build": "esbuild server.js --bundle --platform=node --outfile=src/server.bundle.js",
+    "start": "node src/server.bundle.js"
   },
   "keywords": [],
   "author": "",
