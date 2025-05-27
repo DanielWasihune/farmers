@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "test": "jest --watchAll --verbose",
-    "build": "esbuild server.js --bundle --platform=node --outfile=server.bundle.js --minify",
+    "build": "webpack --config webpack.config.js",
     "start": "node server.bundle.js"
   },
   "keywords": [],
