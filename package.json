@@ -1,12 +1,12 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "main": "server.bundle.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node server.js",
     "test": "jest --watchAll --verbose",
     "build": "esbuild server.js --bundle --platform=node --outfile=server.bundle.js --minify",
-    "start": "server.bundle.js"
+    "start": "node server.bundle.js"
   },
   "keywords": [],
   "author": "",
