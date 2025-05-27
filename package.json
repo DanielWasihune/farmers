@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "test": "jest --watchAll --verbose",
-    "build": "esbuild server.js --bundle --platform=node --outfile=src/server.bundle.js",
-    "start": "node src/server.bundle.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

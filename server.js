@@ -1,11 +1,11 @@
 const express = require('express');
 const http = require('http');
 const dotenv = require('dotenv');
-const connectDB = require('../config/db');
-const configureMiddleware = require('../middleware');
-const configureRoutes = require('../routes');
-const { initializeSocket } = require('../socket');
-const { logger } = require('../utils/logger');
+const connectDB = require('./config/db');
+const configureMiddleware = require('./middleware');
+const configureRoutes = require('./routes');
+const { initializeSocket } = require('./socket');
+const { logger } = require('./utils/logger');
 const path = require('path');
 
 dotenv.config();

@@ -13,3 +13,4 @@ uploads/
 *.tar.Z
 price.js
 .vercel
+node_modules
