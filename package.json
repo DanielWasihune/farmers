@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "test": "jest --watchAll --verbose",
-    "build": "build server.js",
-    "start": "node server.js"
+    "build": "esbuild server.js --bundle --platform=node --outfile=dist/server.bundle.js --minify",
+    "start": "node dist/server.bundle.js"
   },
   "keywords": [],
   "author": "",
